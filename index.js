@@ -22,7 +22,7 @@ function sayHiToGrandma(string) {
 
 function sayHitoGrandma(string) {
   var love = "I love you, Grandma."
-  if (string == love) {
+  if (string === love) {
     return "I love you, too."
   }
 }
